@@ -1,0 +1,32 @@
+{
+  "name": "typescript-template",
+  "version": "1.0.0",
+  "description": "A template for typescript orjects",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/jest/bin/jest.js --config=jest.config.js",
+    "lint": "./node_modules/.bin/eslint ./src --ext .js,.jsx,.ts,.tsx",
+    "build": "./node_modules/typescript/bin/tsc --project ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bugsalexander/typescript-template.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bugsalexander/typescript-template/issues"
+  },
+  "homepage": "https://github.com/bugsalexander/typescript-template#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "@types/jest": "^25.1.2",
+    "@types/node": "^13.7.1",
+    "@typescript-eslint/eslint-plugin": "^2.20.0",
+    "@typescript-eslint/parser": "^2.20.0",
+    "eslint": "^6.8.0",
+    "jest": "^25.1.0",
+    "ts-jest": "^25.2.0",
+    "typescript": "^3.7.5"
+  }
+}
