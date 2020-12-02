@@ -20,7 +20,7 @@
   "homepage": "https://github.com/bugsalexander/typescript-template#readme",
   "dependencies": {},
   "devDependencies": {
-    "@types/jest": "^25.1.2",
+    "@types/jest": "^26.0.16",
     "@types/node": "^13.7.1",
     "@typescript-eslint/eslint-plugin": "^2.20.0",
     "@typescript-eslint/parser": "^2.20.0",
